@@ -215,6 +215,14 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Pages\archive.html" />
+    <Content Include="Pages\CompanyTable.html" />
+    <Content Include="Pages\CreateGatePass.html" />
+    <Content Include="Pages\demos.css" />
+    <Content Include="Pages\login.html" />
+    <Content Include="Pages\NewGmailInitPage.html" />
+    <Content Include="Pages\recover-password.html" />
+    <Content Include="Pages\registerUser.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
