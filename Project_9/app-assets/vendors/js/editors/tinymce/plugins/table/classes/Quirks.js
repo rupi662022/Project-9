@@ -148,8 +148,8 @@ define("tinymce/tableplugin/Quirks", [
 				}
 
 				function moveCursorToRow(ed, node, row, upBool) {
-					var srcColumnIndex = columnIndex(editor.dom.getParent(node, 'td,th'));
-					var tgtColumnIndex = findColumn(row, srcColumnIndex);
+					var src1olumnIndex = columnIndex(editor.dom.getParent(node, 'td,th'));
+					var tgtColumnIndex = findColumn(row, src1olumnIndex);
 					var tgtNode = row.childNodes[tgtColumnIndex];
 					var rowCellTarget = getChildForDirection(tgtNode, upBool);
 					moveCursorToStartOfElement(rowCellTarget || tgtNode);

@@ -796,7 +796,7 @@ var image = (function () {
       updateSize: updateSize
     };
 
-    var onSrcChange = function (evt, editor) {
+    var onsrc1hange = function (evt, editor) {
       var srcURL, prependURL, absoluteURLPattern;
       var meta = evt.meta || {};
       var control = evt.control;
@@ -837,7 +837,7 @@ var image = (function () {
           label: 'Source',
           autofocus: true,
           onchange: function (evt) {
-            onSrcChange(evt, editor);
+            onsrc1hange(evt, editor);
           },
           onbeforecall: onBeforeCall
         },
